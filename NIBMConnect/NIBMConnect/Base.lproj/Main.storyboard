@@ -974,7 +974,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OSe-QZ-xAj" kind="show" id="Wpm-IF-gnQ"/>
+                                    <segue destination="OSe-QZ-xAj" kind="show" id="xmX-Iy-f4X"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password Reset Success" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbV-sL-xez">
@@ -1025,6 +1025,9 @@
                                 <color key="backgroundColor" red="0.27538930610000001" green="0.7288864504" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Reset Password"/>
+                                <connections>
+                                    <segue destination="4di-ee-L06" kind="show" id="9ux-I7-hij"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Email Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsi-pW-Fcy">
                                 <rect key="frame" x="82" y="174" width="210" height="24"/>
@@ -1033,6 +1036,16 @@
                                 <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bLA-P0-fyg">
+                                <rect key="frame" x="26" y="20" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="LpZ-Md-3s5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="eBW-tn-Y52"/>
@@ -1050,11 +1063,12 @@
         <image name="samankuma" width="333" height="416.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="PO6-Dz-SrS"/>
+        <segue reference="9ux-I7-hij"/>
+        <segue reference="xmX-Iy-f4X"/>
         <segue reference="5hx-Qd-K0W"/>
         <segue reference="O97-EC-xR4"/>
         <segue reference="SZd-07-XBr"/>
         <segue reference="RLD-0a-WA1"/>
-        <segue reference="G4b-1y-8dO"/>
+        <segue reference="LpZ-Md-3s5"/>
     </inferredMetricsTieBreakers>
 </document>
