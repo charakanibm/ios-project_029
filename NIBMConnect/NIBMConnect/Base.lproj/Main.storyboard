@@ -878,8 +878,8 @@
         <!--Forgot Password ViewController-->
         <scene sceneID="i3s-ym-t58">
             <objects>
-                <viewController title="Forgot Password ViewController" id="OSe-QZ-xAj" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6b6-XH-deA">
+                <viewController title="Forgot Password ViewController" id="OSe-QZ-xAj" customClass="ForgotPasswordViewController" customModule="NIBMConnect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6b6-XH-deA" customClass="ForgotPasswordViewController">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -931,7 +931,7 @@
         <image name="nibm_connect_success_bg.jpg" width="720" height="1189.9200439453125"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wpm-IF-gnQ"/>
-        <segue reference="RLD-0a-WA1"/>
+        <segue reference="KwA-im-Jwa"/>
+        <segue reference="cR7-0F-dTM"/>
     </inferredMetricsTieBreakers>
 </document>
