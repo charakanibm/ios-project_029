@@ -710,6 +710,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="4di-ee-L06" kind="show" id="TDe-3h-htx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Charaka Dushyantha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFW-n8-kdV">
                                 <rect key="frame" x="164" y="291" width="159" height="21"/>
@@ -1063,8 +1066,8 @@
         <image name="samankuma" width="333" height="416.5"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9ux-I7-hij"/>
         <segue reference="xmX-Iy-f4X"/>
+        <segue reference="TDe-3h-htx"/>
         <segue reference="5hx-Qd-K0W"/>
         <segue reference="O97-EC-xR4"/>
         <segue reference="SZd-07-XBr"/>
