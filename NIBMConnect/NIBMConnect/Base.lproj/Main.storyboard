@@ -256,7 +256,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="lX4-z2-BEO"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="G4b-1y-8dO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1054,7 +1054,7 @@
         <segue reference="5hx-Qd-K0W"/>
         <segue reference="O97-EC-xR4"/>
         <segue reference="SZd-07-XBr"/>
-        <segue reference="cR7-0F-dTM"/>
-        <segue reference="pd4-Y1-D4m"/>
+        <segue reference="RLD-0a-WA1"/>
+        <segue reference="G4b-1y-8dO"/>
     </inferredMetricsTieBreakers>
 </document>
