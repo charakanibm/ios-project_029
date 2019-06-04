@@ -14,6 +14,9 @@
 		7E45B8F022A2472900A65A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E45B8EF22A2472900A65A0F /* Assets.xcassets */; };
 		7E45B8F322A2472900A65A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E45B8F122A2472900A65A0F /* LaunchScreen.storyboard */; };
 		7E45B8FB22A2534500A65A0F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E45B8FA22A2534500A65A0F /* GoogleService-Info.plist */; };
+		7E9D421322A6562A00BCDD5B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D421222A6562A00BCDD5B /* SignUpViewController.swift */; };
+		7E9D421522A6586300BCDD5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D421422A6586300BCDD5B /* HomeViewController.swift */; };
+		7E9D421722A66A9F00BCDD5B /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D421622A66A9F00BCDD5B /* RoundedWhiteButton.swift */; };
 		7E9D9D9622A3A70D00E7C3D0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9D9D9522A3A70D00E7C3D0 /* LoginViewController.swift */; };
 		7E9D9D9922A3AF1200E7C3D0 /* nibm_connect_app_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9D9822A3AF1200E7C3D0 /* nibm_connect_app_bg.jpg */; };
 		7E9D9D9B22A3CD1900E7C3D0 /* nibm_connect_success_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E9D9D9A22A3CD1900E7C3D0 /* nibm_connect_success_bg.jpg */; };
@@ -31,6 +34,9 @@
 		7E45B8F222A2472900A65A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E45B8F422A2472900A65A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E45B8FA22A2534500A65A0F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E9D421222A6562A00BCDD5B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7E9D421422A6586300BCDD5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7E9D421622A66A9F00BCDD5B /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
 		7E9D9D9522A3A70D00E7C3D0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7E9D9D9822A3AF1200E7C3D0 /* nibm_connect_app_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nibm_connect_app_bg.jpg; sourceTree = "<group>"; };
 		7E9D9D9A22A3CD1900E7C3D0 /* nibm_connect_success_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nibm_connect_success_bg.jpg; sourceTree = "<group>"; };
@@ -79,7 +85,10 @@
 			children = (
 				7E45B8E822A2472600A65A0F /* AppDelegate.swift */,
 				7E45B8EA22A2472600A65A0F /* ViewController.swift */,
+				7E9D421222A6562A00BCDD5B /* SignUpViewController.swift */,
 				7E9D9D9522A3A70D00E7C3D0 /* LoginViewController.swift */,
+				7E9D421422A6586300BCDD5B /* HomeViewController.swift */,
+				7E9D421622A66A9F00BCDD5B /* RoundedWhiteButton.swift */,
 				7E45B8EC22A2472600A65A0F /* Main.storyboard */,
 				7E45B8EF22A2472900A65A0F /* Assets.xcassets */,
 				7E45B8F122A2472900A65A0F /* LaunchScreen.storyboard */,
@@ -235,9 +244,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9D421522A6586300BCDD5B /* HomeViewController.swift in Sources */,
 				7E9D9D9622A3A70D00E7C3D0 /* LoginViewController.swift in Sources */,
 				7E45B8EB22A2472600A65A0F /* ViewController.swift in Sources */,
+				7E9D421322A6562A00BCDD5B /* SignUpViewController.swift in Sources */,
 				7E45B8E922A2472600A65A0F /* AppDelegate.swift in Sources */,
+				7E9D421722A66A9F00BCDD5B /* RoundedWhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

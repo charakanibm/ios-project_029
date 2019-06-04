@@ -1,30 +1,22 @@
 //
-//  LoginViewController.swift
+//  HomeViewController.swift
 //  NIBMConnect
 //
-//  Created by Charaka Dushyantha on 6/2/19.
+//  Created by Charaka Dushyantha on 6/4/19.
 //  Copyright © 2019 NIBM. All rights reserved.
 //
 
 import UIKit
-import Firebase
 
-class LoginViewController: UIViewController, UITextFieldDelegate {
-
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var passwordField: UITextField!
-    
-    var loginButton:RoundedWhiteButton!
-    var activityView:UIActivityIndicatorView!
-    
+class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
     
+
 
     /*
     // MARK: - Navigation
